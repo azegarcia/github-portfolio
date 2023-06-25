@@ -65,7 +65,3 @@ As a freelance developer, I am exposed to the following technologies:
                         Arduino IDE, XAMPP, ExpressPCB, WinPROLadder(PLC Programming), MATLAB
   * Hardwares used: Raspberry Pi, Arduino, NodeMCU and different types of sensors
   * Databases used: MySQL, MongoDB, PostgreSQL
-    
-## You can visit my works' Instagram page
-
-[Aze Works]([https://www.instagram.com/aze_works/?igshid=OGQ5ZDc2ODk2ZA%3D%3D])
