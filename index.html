@@ -4,151 +4,154 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Azeneth Garcia | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Inter', sans-serif;
       margin: 0;
-      padding: 0 1rem;
-      background-color: #f9f9f9;
-      color: #333;
-      max-width: 900px;
-      margin: auto;
+      padding: 0;
+      background-color: #fafafa;
+      color: #2c2c2c;
+      line-height: 1.6;
     }
+
+    main {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
     header {
-      padding: 2rem 0;
       text-align: center;
-      background-color: #fff;
-      border-bottom: 1px solid #ddd;
+      margin-bottom: 3rem;
     }
+
     header h1 {
+      font-size: 2.25rem;
       margin: 0;
-      font-size: 2.5rem;
     }
+
     header p {
-      font-size: 1.1rem;
+      font-size: 1rem;
+      color: #666;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+      color: #333;
+    }
+
+    .project {
+      margin-bottom: 3rem;
+    }
+
+    .project h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.25rem;
+      color: #222;
+    }
+
+    .project p {
+      margin: 0.5rem 0;
       color: #555;
     }
-    section {
-      padding: 2rem 0;
-    }
-    h2 {
-      color: #222;
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.5rem;
-    }
-    .project {
-      margin-bottom: 2rem;
-    }
-    .project h3 {
-      margin-top: 0;
-    }
+
     a {
-      color: #0366d6;
+      color: #3a7bd5;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
+    .project img {
+      width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+    }
+
     footer {
       text-align: center;
-      padding: 2rem 0;
+      padding: 2rem 1rem;
       font-size: 0.9rem;
-      color: #777;
+      color: #aaa;
+      border-top: 1px solid #eee;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Azeneth Garcia</h1>
-    <p>
-      A Computer Engineer with almost 5 years of experience in the IT industry and 1 year of academic experience, specializing in automation, web, and mobile development using a variety of frameworks.
-    </p>
-  </header>
+  <main>
+    <header>
+      <h1>Azeneth Garcia</h1>
+      <p>
+        A Computer Engineer with 5 years of experience in IT industry and 1 year in academia, focused on automation, web, and mobile development.
+      </p>
+    </header>
 
-  <section>
-    <h2>📂 Projects</h2>
+    <section>
+      <h2>📂 Projects</h2>
 
-    <div class="project">
-      <h3>🎼 Audio File to Musical Notes Web Application (2025)</h3>
-      <p>
-        A system designed to convert audio files (specifically WAV) into musical notes and plot them on a musical sheet.
-        This project explores and optimizes DSP techniques for pitch detection. Recognizes notes for Piano, Guitar, Bass, Violin, and Flute.
-      </p>
-      <p>
-        <strong>Technologies:</strong> Python, Numpy, Matplotlib, Scipy, Harmonic Product Spectrum (HPS), Fourier Transform (FFT), Librosa, Soundfile, music21, MusicXML, Lilypond
-      </p>
-      <p>
-        🔗 <a href="https://github.com/azegarcia/musical_conversion_using_DSP" target="_blank">View on GitHub</a>
-      </p>
-      <br>
-      <center>
-      <img src="images/1.png" width="800" height="400">
-      <br>
-      <img src="images/2.png" width="800" height="400">
-      </center>
-    </div>
+      <div class="project">
+        <h3>Audio File to Musical Notes Web App (2025)</h3>
+        <p>
+          Converts audio (WAV) into musical notes and plots them. Supports Piano, Guitar, Bass, Violin, and Flute.
+        </p>
+        <p><strong>Tech:</strong> Python, Numpy, Librosa, FFT, MusicXML, Lilypond</p>
+        <p><a href="https://github.com/azegarcia/musical_conversion_using_DSP" target="_blank">View on GitHub</a></p>
+        <img src="images/1.png" alt="Audio App Screenshot">
+        <img src="images/2.png" alt="Musical Output Screenshot">
+      </div>
 
-    <div class="project">
-      <h3>🖨️ Customized Label Making Application (2025)</h3>
-      <p>
-        A custom application made for a labeling company to generate labels in various sizes. Features barcode generation for e-commerce and supports thermal printers.
-        Includes custom functions to suit the company’s specific needs. Works on both Windows and Android devices.
-      </p>
-      <p>
-        <strong>Technologies:</strong> Python, Tkinter, Kivy, Win32print, Win32GUI, Win32UI, Customtkinter, Cython, Pygame, Pillow, PyInstaller, p4a, Kotlin
-      </p>
-      <p>
-        🔗 <a href="https://github.com/azegarcia/labelmaking" target="_blank">View on GitHub</a>
-      </p>
-      <br>
-      <center>
-      <img src="images/3.png" width="800" height="400">
-      <br>
-      <img src="images/5.png" width="800" height="400">
-      </center>
-    </div>
+      <div class="project">
+        <h3>Customized Label Making App (2025)</h3>
+        <p>
+          Generates printable labels with barcode support for thermal printers. Runs on Windows and Android.
+        </p>
+        <p><strong>Tech:</strong> Python, Kivy, Tkinter, Kotlin, PyInstaller</p>
+        <p><a href="https://github.com/azegarcia/labelmaking" target="_blank">View on GitHub</a></p>
+        <img src="images/3.png" alt="Label App Screenshot">
+        <img src="images/5.png" alt="Label Preview Screenshot">
+      </div>
 
-    <div class="project">
-      <h3>Construction Scheduler with Weather Forecast (2024)</h3>
-      <p>
-        A project management tool with predictive scheduling and weather analytics.
-      </p>
-      <p>
-        🔗 <a href="https://github.com/azegarcia/construction_industry_with_AI" target="_blank">View on GitHub</a>
-      </p>
-      <br>
-      <center>
-      <img src="images/6.png" width="800" height="400">
-      <br>
-      <img src="images/7.jpg" width="800" height="400">
-      </center>
-    </div>
+      <div class="project">
+        <h3>Construction Scheduler + Weather Forecast (2024)</h3>
+        <p>Combines project management with weather analytics for smarter scheduling.</p>
+        <p><a href="https://github.com/azegarcia/construction_industry_with_AI" target="_blank">View on GitHub</a></p>
+        <img src="images/6.png" alt="Scheduler UI">
+        <img src="images/7.jpg" alt="Weather Integration Screenshot">
+      </div>
 
-    <div class="project">
-      <h3>Library Management System of a School (2022)</h3>
-      <p>
-        A computerized system designed to manage all aspects of a library's operations, including acquiring resources, cataloging, circulation, and reporting.
-      </p>
-      <p>
-        🔗 <a href="https://github.com/azegarcia/library-management-system" target="_blank">View on GitHub</a>
-      </p>
-      <center>
-      <img src="images/8.png" width="800" height="400">
-      <br>
-      </center>
-      <br>
-    </div>
-  </section>
+      <div class="project">
+        <h3>Library Management System (2022)</h3>
+        <p>Handles cataloging, circulation, acquisition, and reporting for school libraries.</p>
+        <p><a href="https://github.com/azegarcia/library-management-system" target="_blank">View on GitHub</a></p>
+        <img src="images/8.png" alt="Library System Screenshot">
+      </div>
+    </section>
 
-  <section>
-    <h2>📫 Connect</h2>
-    <p>
-      <a href="https://www.linkedin.com/in/azeneth-g-552b03174/" target="_blank">LinkedIn Profile</a>
-    </p>
-  </section>
+    <section>
+      <h2>📫 Connect with me!</h2>
+      <p><a href="https://www.linkedin.com/in/azeneth-g-552b03174/" target="_blank">LinkedIn Profile</a></p>
+    </section>
+  </main>
 
   <footer>
-    © 2025 Azeneth Garcia — Portfolio powered by GitHub Pages
+    © 2025 Azeneth Garcia — Powered by GitHub Pages
   </footer>
 </body>
 </html>
